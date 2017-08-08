@@ -30,7 +30,7 @@ a.active {
 a {
   color: #03a9f4;
 }
-a:hover,
+
 a:focus,
 a:active,
 a.active {
@@ -226,7 +226,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/new_header.jpg');
+  background-image: url('../img/new_header2.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -235,7 +235,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-
+  color: white;
 }
 header .intro-text {
   padding-top: 100px;
@@ -260,6 +260,9 @@ header .intro-text .intro-heading {
   header .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
+    max-width: 80%;
+    margin-left: 10%;
+
   }
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -267,14 +270,16 @@ header .intro-text .intro-heading {
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 25px;
+    color: white;
   }
   header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 75px;
+    font-size: 4.6em;
     line-height: 75px;
     margin-bottom: 50px;
+    color: white;
   }
 }
 section {
